@@ -1,2 +1,2 @@
 # selfcode
-This is the code stored during the individual learning C++ Primer Plus process
+随便存储的一些代码
