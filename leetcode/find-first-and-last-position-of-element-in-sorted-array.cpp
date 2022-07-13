@@ -2,15 +2,15 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        int left = 0 , right = nums.size() - 1;
+        int left = 0 , right = nums.size() - 1;     //定义双指针
         while (left <= right){
-            if (nums[left] != target){
+            if (nums[left] != target){              //找到左边界
                 left ++;
             } 
-            if (nums[right] != target && right != 0){
+            if (nums[right] != target && right != 0){  //找到右边界
                 right --;
             }
-            if (nums[right] == target && nums[left] == target)
+            if (nums[right] == target && nums[left] == target) //双指针重合时退出循环
                 break;
         }
         vector<int> obj;
