@@ -1,3 +1,3 @@
 最近半年训练的pwn题保存的exp
 
-qemu的题目为了方便都是直接拿Ubuntu20写的
+qemu的题目和V8的题都是使用Ubuntu20环境
